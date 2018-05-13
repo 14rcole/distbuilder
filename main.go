@@ -22,7 +22,7 @@ func init() {
 	logrus.SetLevel(logrus.DebugLevel)
 }
 
-func main() {
+func old- main() {
 	logrus.Debug("Testing build...")
 	// Create and populate parallelbuilder
 	pb, err := mockBuilder()
